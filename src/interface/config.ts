@@ -274,7 +274,7 @@ export interface IScrollBarInteractionConfig {
   categorySize?: number;
 }
 
-export interface IPlayLineInteractionConfig {
+export interface ITimeLineInteractionConfig {
   /** 绑定字段，必须传 */
   field: string;
   /** 是否循环播放，默认 false */
@@ -291,7 +291,7 @@ export interface IPlayLineInteractionConfig {
   // width?: number;
 }
 
-export type IInteractionConfig = IScrollBarInteractionConfig | ISliderInteractionConfig | IPlayLineInteractionConfig;
+export type IInteractionConfig = IScrollBarInteractionConfig | ISliderInteractionConfig | ITimeLineInteractionConfig;
 
 export interface IInteractions {
   type: string;
